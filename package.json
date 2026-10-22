@@ -1,0 +1,44 @@
+{
+  "name": "perpswipe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "keygen": "tsx scripts/keygen.ts",
+    "check": "tsx scripts/check.ts",
+    "fund": "tsx scripts/fund.ts",
+    "first-order": "tsx scripts/first-order.ts",
+    "test:risk": "tsx scripts/risk-test.ts",
+    "wallet": "tsx scripts/wallet-check.ts",
+    "account": "tsx scripts/account-check.ts",
+    "bot-trade": "tsx scripts/bot-trade.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.1.0",
+    "@somnia-chain/markets-sdk": "^0.32.1",
+    "@supabase/supabase-js": "^2.118.0",
+    "@tanstack/react-query": "^5.59.0",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^11.11.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "viem": "^2.21.0",
+    "wagmi": "^2.12.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^5.0.5"
+  }
+}
